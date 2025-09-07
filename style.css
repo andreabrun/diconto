@@ -1,0 +1,90 @@
+body { margin: 40px; }
+
+.hidden { display: none; }
+
+.userList { margin: 20px 0; }
+
+.userTable { margin: 20px 0; }
+
+.expensesTable { margin: 20px 0; }
+
+.expensesContainer {
+  display: flex;
+  gap: 20px; 
+}
+
+.expensesContainer > div {
+  flex: 1;
+  min-width: 420px;
+}
+
+.expensesContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expensesContainer th {
+  border: 1px solid #888;
+}
+
+.expensesContainer td {
+  border: 1px solid #AAA;
+}
+
+@media (max-width: 840px) {
+  .expensesContainer {
+    flex-direction: column;
+  }
+}
+
+.loansTable { margin: 20px 0; }
+
+.loansContainer > div {
+  flex: 1;
+  min-width: 420px;
+}
+
+.loansContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.loansContainer th {
+  border: 1px solid #888;
+}
+
+.loansContainer td {
+  border: 1px solid #AAA;
+}
+
+@media (max-width: 840px) {
+  .loansContainer {
+    flex-direction: column;
+  }
+}
+
+.settlementsTable { margin: 20px 0; }
+
+.settlementsContainer > div {
+  flex: 1;
+  min-width: 420px;
+}
+
+.settlementsContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.settlementsContainer th {
+  border: 1px solid #888;
+}
+
+.settlementsContainer td {
+  border: 1px solid #AAA;
+}
+
+@media (max-width: 840px) {
+  .settlementsContainer {
+    flex-direction: column;
+  }
+}
